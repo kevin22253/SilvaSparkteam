@@ -6,85 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet the Silva Spark Team</title>
     <style>
-       body {
-    background-color: #14213d;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+   body {
+            background-color: #b8e0c5; /* Light Green Background Color */
+            color: #000000; /* Black Text Color */
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #00343f; /* Dark Green Header Background Color */
+            color: #ffffff; /* White Text Color */
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 20px; /* Adjust the height of the ribbon as needed */
+            background-color: #086747; /* Darker Green Ribbon Color */
+            z-index: -1;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .team-member {
+            margin-bottom: 30px;
+            background-color: #ffffff; /* White Background Color for Team Members */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box Shadow for Team Members */
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #00343f; /* Dark Green Footer Background Color */
+            padding: 20px 0;
+            text-align: center;
+            color: #ffffff; /* White Text Color */
+        }
+
+        .footer-social a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 10px;
 }
 
-header {
-    background-color: #fca311;
-    padding: 10px 0;
-    text-align: center;
-    position: relative;
-}
-
-header::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: #fca311;
-    transform: skewY(-3deg);
-    z-index: -1;
-}
-
-header h1 {
-    font-size: 24px;
-    margin: 0;
-    color: #ffffff;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.content {
-    padding: 20px;
-}
-
-.team-member {
-    margin-bottom: 30px;
-}
-
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-footer {
-    background-color: #14213d;
-    padding: 20px 0;
-    text-align: center;
-    color: #ffffff;
-}
-
-.footer-social a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-    margin: 0 10px;
-}
-
+    </style>
 </head>
 
 <body>
@@ -97,75 +101,74 @@ footer {
                 <!-- Add more navigation links as needed -->
             </ul>
         </nav>
-  </header>
+    </header>
 
     <div class="content">
         <h2>Meet Our Team</h2>
-
-        <div class="team-member">
-            <img src="kevin-dsouza.jpg" alt="Kevin D'Souza">
-            <h3>Kevin D'Souza</h3>
-            <p><strong>Role:</strong> President</p>
-            <p><strong>Bio:</strong> Kevin D'Souza is the President of Silva Spark. He leads the team with passion and dedication, ensuring the event's success.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="paul-dsouza.jpg" alt="Paul D'Souza">
-            <h3>Paul D'Souza</h3>
-            <p><strong>Role:</strong> Vice President</p>
-            <p><strong>Bio:</strong> Paul D'Souza serves as one of the Vice Presidents of Silva Spark. With his innovative ideas, he contributes significantly to the event.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="ayush-tiwari.jpg" alt="Ayush Tiwari">
-            <h3>Ayush Tiwari</h3>
-            <p><strong>Role:</strong> Vice President</p>
-            <p><strong>Bio:</strong> Ayush Tiwari is one of the Vice Presidents of Silva Spark. He brings creativity and enthusiasm, making the event memorable for attendees.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="anthony-fernandes.jpg" alt="Anthony Fernandes">
-            <h3>Anthony Fernandes</h3>
-            <p><strong>Role:</strong> Finance Manager</p>
-            <p><strong>Bio:</strong> Anthony Fernandes handles the financial aspects of Silva Spark, ensuring a smooth budgeting and financial management process.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="rehan-mhatre.jpg" alt="Rehan Mhatre">
-            <h3>Rehan Mhatre</h3>
-            <p><strong>Role:</strong> Security Head</p>
-            <p><strong>Bio:</strong> Rehan Mhatre oversees the security arrangements for Silva Spark, ensuring a safe and enjoyable experience for all attendees.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="stephan-dsouza.jpg" alt="Stephan D'Souza">
-            <h3>Stephan D'Souza</h3>
-            <p><strong>Role:</strong> Storage Logistics Head</p>
-            <p><strong>Bio:</strong> Stephan D'Souza manages storage and logistics, ensuring the smooth handling of event materials and equipment.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="dhiraj.jpg" alt="Dhiraj">
-            <img src="harry.jpg" alt="Harry">
-            <h3>Dhiraj and Harry</h3>
-            <p><strong>Role:</strong> Sports Heads</p>
-            <p><strong>Bio:</strong> Dhiraj and Harry lead the sports activities at Silva Spark, organizing engaging and fun-filled sports events for attendees.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="dhanraj-giri.jpg" alt="Dhanraj Giri">
-            <h3>Dhanraj Giri</h3>
-            <p><strong>Role:</strong> Photography Head</p>
-            <p><strong>Bio:</strong> Dhanraj Giri captures the memorable moments of Silva Spark, ensuring beautiful and vibrant event photography.</p>
-        </div>
-
-        <div class="team-member">
-            <img src="vinayak-mishra.jpg" alt="Vinayak Mishra">
-            <h3>Vinayak Mishra</h3>
-            <p><strong>Role:</strong> Public Relations Head</p>
-            <p><strong>Bio:</strong> Vinayak Mishra manages public relations and communications, ensuring effective outreach and positive engagement with attendees and sponsors.</p>
-        </div>
-
+    
+            <div class="team-member">
+                <img src="kevin-dsouza.jpg" alt="Kevin D'Souza">
+                <h3>Kevin D'Souza</h3>
+                <p><strong>Role:</strong> President</p>
+                <p><strong>Bio:</strong> Kevin D'Souza is the President of Silva Spark. He leads the team with passion and dedication, ensuring the event's success.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="paul-dsouza.jpg" alt="Paul D'Souza">
+                <h3>Paul D'Souza</h3>
+                <p><strong>Role:</strong> Vice President</p>
+                <p><strong>Bio:</strong> Paul D'Souza serves as one of the Vice Presidents of Silva Spark. With his innovative ideas, he contributes significantly to the event.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="ayush-tiwari.jpg" alt="Ayush Tiwari">
+                <h3>Ayush Tiwari</h3>
+                <p><strong>Role:</strong> Vice President</p>
+                <p><strong>Bio:</strong> Ayush Tiwari is one of the Vice Presidents of Silva Spark. He brings creativity and enthusiasm, making the event memorable for attendees.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="anthony-fernandes.jpg" alt="Anthony Fernandes">
+                <h3>Anthony Fernandes</h3>
+                <p><strong>Role:</strong> Finance Manager</p>
+                <p><strong>Bio:</strong> Anthony Fernandes handles the financial aspects of Silva Spark, ensuring a smooth budgeting and financial management process.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="rehan-mhatre.jpg" alt="Rehan Mhatre">
+                <h3>Rehan Mhatre</h3>
+                <p><strong>Role:</strong> Security Head</p>
+                <p><strong>Bio:</strong> Rehan Mhatre oversees the security arrangements for Silva Spark, ensuring a safe and enjoyable experience for all attendees.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="stephan-dsouza.jpg" alt="Stephan D'Souza">
+                <h3>Stephan D'Souza</h3>
+                <p><strong>Role:</strong> Storage Logistics Head</p>
+                <p><strong>Bio:</strong> Stephan D'Souza manages storage and logistics, ensuring the smooth handling of event materials and equipment.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="dhiraj.jpg" alt="Dhiraj">
+                <img src="harry.jpg" alt="Harry">
+                <h3>Dhiraj and Harry</h3>
+                <p><strong>Role:</strong> Sports Heads</p>
+                <p><strong>Bio:</strong> Dhiraj and Harry lead the sports activities at Silva Spark, organizing engaging and fun-filled sports events for attendees.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="dhanraj-giri.jpg" alt="Dhanraj Giri">
+                <h3>Dhanraj Giri</h3>
+                <p><strong>Role:</strong> Photography Head</p>
+                <p><strong>Bio:</strong> Dhanraj Giri captures the memorable moments of Silva Spark, ensuring beautiful and vibrant event photography.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="vinayak-mishra.jpg" alt="Vinayak Mishra">
+                <h3>Vinayak Mishra</h3>
+                <p><strong>Role:</strong> Public Relations Head</p>
+                <p><strong>Bio:</strong> Vinayak Mishra manages public relations and communications, ensuring effective outreach and positive engagement with attendees and sponsors.</p>
+            </div>
 
         <!-- Add more team members as needed -->
 
@@ -175,9 +178,11 @@ footer {
         <div class="footer-social">
             <a href="#" target="_blank">Facebook</a>
             <a href="#" target="_blank">Twitter</a>
-            <a href="#" target="_blank">Instagram</a>
+            <a href="https://www.instagram.com/silva_spark23/" target="_blank">Instagram</a>
         </div>
+    <p>&copy; 2023 All Rights Reserved. Created by <a href="https://www.instagram.com/itskevindsouzatbh/" target="_blank">Kevin D'Souza</a></p>
     </footer>
 </body>
+
 
 </html>

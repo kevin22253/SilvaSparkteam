@@ -6,73 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet the Silva Spark Team</title>
     <style>
-        body {
-            background-color: #14213d;
-            color: #ffffff;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
+       body {
+    background-color: #14213d;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            background-color: #14213d;
-            padding: 10px 0;
-            text-align: center;
-            z-index: 1;
-        }
+header {
+    background-color: #fca311;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
 
-        header h1 {
-            font-size: 24px;
-            margin: 0;
-            color: #ffffff;
-        }
+header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fca311;
+    transform: skewY(-3deg);
+    z-index: -1;
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #ffffff;
+}
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-        nav a {
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 700;
-            font-size: 16px;
-        }
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
-        .content {
-            padding: 20px;
-        }
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
 
-        .team-member {
-            margin-bottom: 30px;
-        }
+.content {
+    padding: 20px;
+}
 
-        .team-member img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
+.team-member {
+    margin-bottom: 30px;
+}
 
-        footer {
-            background-color: #14213d;
-            padding: 20px 0;
-            text-align: center;
-            color: #ffffff;
-        }
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
-        .footer-social a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 20px;
-            margin: 0 10px;
-        }
-    </style>
+footer {
+    background-color: #14213d;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-social a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
 </head>
 
 <body>
